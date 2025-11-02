@@ -436,7 +436,7 @@ public class Plataforma {
             System.out.println("2. Transferir un artista de sello (INCISO C)");
             System.out.println("3. Reproducir una canción por nombre");
             System.out.println("4. Agregar canciones al album de un artista (INCISO D)");
-            System.out.println("5. Hacer playlist (INCISO E1)");
+            System.out.println("5. Hacer playlist (INCISO E)");
             System.out.println("6. Reproducir siguiente canción de la playlist");
             System.out.println("7. Mostrar árbol de la plataforma en pantalla");
             System.out.println("0. Salir");
