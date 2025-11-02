@@ -304,8 +304,8 @@ public class Plataforma {
 
         // Crear plataforma principal
         Plataforma spotify = new Plataforma("Spotify", 2008);
-        GeneralTree<PlataformLevel> arbol = spotify.getPlataforma();
-
+        GeneralTree<PlataformLevel> arbol = spotify.getPlataforma();        //Sabemos que el arbol existe dentro de la clase, pero aqui
+                                                                            //se decide sacar la referencia por comodidad
         // Crear nodo raíz de la plataforma
         BinaryTreeNode<PlataformLevel> nodoPlataforma = new BinaryTreeNode<>(new PlataformLevel(spotify.getNombre()));
         arbol.insertNode(nodoPlataforma, null); // raíz
@@ -346,7 +346,7 @@ public class Plataforma {
         arbol.insertNode(rhcp, warner);           // Warner Music
         arbol.insertNode(ledZeppelin, parlophone);// Parlophone
         arbol.insertNode(metallica, capitol);     // Capitol Records
-        arbol.insertNode(lanaDelRey, bigMachine);// Big Machine Records
+        arbol.insertNode(lanaDelRey, bigMachine); // Big Machine Records
 
         // Crear álbumes
         BinaryTreeNode<PlataformLevel> abbey = new BinaryTreeNode<>(new Album("Abbey Road", 1969, "Rock"));
