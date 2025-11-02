@@ -82,9 +82,7 @@ public class Plataforma {
 
 /**/public boolean agregarCancionesAUnAlbum(String nombreArtistaDado, String nombreAlbumDado, //INCISO D -----------------------------------------------------------
                                                 List<Cancion> nuevasCanciones) {
-        int cantNueva = nuevasCanciones.size();
         List<BinaryTreeNode<PlataformLevel>> albumes = obtenerAlbumesDeArtistaDadoElNombre(nombreArtistaDado);
-        Album album = null;
         boolean exito = false;
 
         if(albumes != null) {
